@@ -183,10 +183,10 @@ const technologies = [
     name: "SQL",
     icon: sql,
   },
-  {
-    name: "regex",
-    icon: regex,
-  },
+  // {
+  //   name: "regex",
+  //   icon: regex,
+  // },
   // ========================= //
   {
     name: "Ruby on Rails",
@@ -196,10 +196,10 @@ const technologies = [
     name: "Django",
     icon: django,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -212,11 +212,75 @@ const technologies = [
     name: "Stimulus JS",
     icon: stimulus,
   },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // ========================= //
+  // {
+  //   name: "PostgreSQL",
+  //   icon: postgresql,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Postman",
+  //   icon: postman,
+  // },
+  // {
+  //   name: "Table Plus",
+  //   icon: tableplus,
+  // },
+  // ========================= //
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "Tailwind",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "heroku",
+  //   icon: heroku,
+  // },
+  // {
+  //   name: "vercel",
+  //   icon: vercel,
+  // },
+  // {
+  //   name: "aws",
+  //   icon: aws,
+  // },
+];
+
+const othertechnologies = [
+  {
+    name: "regex",
+    icon: regex,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
   {
     name: "Three JS",
     icon: threejs,
   },
-  // ========================= //
   {
     name: "PostgreSQL",
     icon: postgresql,
@@ -237,7 +301,6 @@ const technologies = [
     name: "Table Plus",
     icon: tableplus,
   },
-  // ========================= //
   {
     name: "git",
     icon: git,
@@ -411,4 +474,4 @@ const testimonials = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, othertechnologies, experiences, testimonials, projects };
