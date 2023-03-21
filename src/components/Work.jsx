@@ -66,7 +66,7 @@ const Work = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
         >
-          I have worked on a number of projects using a variety of languages and frameworks. Some projects have just been for fun, whilst others are in use. Each project is briefly described below with links to the code repositories and live demos. The projects reflect my ability to design and structure applications which solve complex problems, my ability to work using different frameworks, and my creativity. Please feel free to contact me if you have any questions.
+          I have worked on a number of projects using a variety of languages and frameworks. Some projects have just been for fun, whilst others are in use. Each project is briefly described below with links to the code repositories where you can see more information and a link to the live demos. The projects reflect my ability to design and structure applications which solve complex problems, my ability to work using different frameworks, and my creativity. Please feel free to contact me if you have any questions.
         </motion.p>
       </div>
 
@@ -79,6 +79,6 @@ const Work = () => {
   )
 }
 
-export default SectionWrapper(Work, "");
+export default SectionWrapper(Work, "projects");
 
 // use empty <> wrapper because we have a div in the SectionWrapper

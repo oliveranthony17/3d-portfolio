@@ -46,13 +46,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a full-stack developer with a passion for building web applications. I have experience in building web applications using a number of frontend and backend frameworks.
+        I am born and raised in Manchester, England, and I am currently living in Luzern, Switzerland. I have recently completed the full-stack web development course at Le Wagon, Zürich, having previously worked as an Investment Consultant. I wanted to change my career and work in a role where I can better use my mathematical background, long-standing interest in technology and my passion for solving complex problems.
         <br></br>
         <br></br>
         <strong>I am currently looking for a full-time position as a software engineer.</strong>
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
