@@ -46,10 +46,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
       >
-        I am born and raised in Manchester, England, and I am currently living in Luzern, Switzerland. I have recently completed the full-stack web development course at Le Wagon, Zürich, having previously worked as an Investment Consultant. I wanted to change my career and work in a role where I can better use my mathematical background, long-standing interest in technology and my passion for solving complex problems.
+        I am originally from Manchester, England, and I am currently living in Luzern, Switzerland. I have recently completed the full-stack web development course at Le Wagon, Zürich, having previously worked as an Investment Consultant. I wanted to change my career and work in a role where I can better use my mathematical background, long-standing interest in technology and my passion for solving complex problems.
         <br></br>
         <br></br>
-        <strong>I am currently looking for a full-time position as a software engineer.</strong>
+        <strong>I have a Swiss work permit and I am looking for a full-time position as an intern or work experience as a software engineer.</strong>
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-10">

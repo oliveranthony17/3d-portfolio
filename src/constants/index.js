@@ -96,13 +96,13 @@ const experiences = [
     company_name: "Le Wagon, Zürich",
     icon: lewagon,
     iconBg: "#E4161B",
-    date: "October 2022 - January 2023",
+    date: "October 2022 - December 2022",
     points: [
       "Learnt the fundamentals of software development and programming: writing clean and efficient code with object-oriented programming, building MVC software from scratch, and mastering relational databases and SQL.",
       "Mastered front-end development and web design: developed responsive websites with HTML and CSS, designed user interfaces with Bootstrap and Figma, and built interactive web applications using JavaScript and tools/environments like Webpack and Node.js.",
       "Deployed fully-functional apps from scratch: designed and built complete web applications working as a team, deployed online using Heroku and a real domain, worked as a team to develop the application.",
       "Adopted best-in-class development workflow: understanding the importance of version control with Git and GitHub, and learned how to collaborate with other developers using GitHub, Slack, and Trello.",
-      "Following the course, I also worked as a Teaching Assistant in the next batch."
+      "Following the course, I also worked as a Teaching Assistant for Le Wagon."
     ],
   },
   {
@@ -448,14 +448,14 @@ const testimonials = [
     company: "XPS Pensions Group",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
-  {
-    testimonial:
-      "I can say with utmost certainty that he was an outstanding student, with exceptional capabilities! Oliver was able to pick up complex topics with total ease, while still having a remarkable commitment to learning.",
-    name: "Stephen Schüz",
-    designation: "Teacher",
-    company: "Le Wagon",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "I can say with utmost certainty that he was an outstanding student, with exceptional capabilities! Oliver was able to pick up complex topics with total ease, while still having a remarkable commitment to learning.",
+  //   name: "Stephen Schüz",
+  //   designation: "Teacher",
+  //   company: "Le Wagon",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
   {
     testimonial:
       "He was constantly going the extra mile to understand topics completely and never hesitated to ask questions, displaying a deep interest and passion for software development. His remarkable ability to break down complicated topics into well-structured and organised thoughts was a great asset to both the class and myself as teacher.",
@@ -466,9 +466,9 @@ const testimonials = [
   },
   {
     testimonial:
-      "He's the best dad ever - probably.",
-    name: "Larry",
-    designation: "Oliver's Dog",
+      "He's a very good boy!",
+    name: "Dianne Anthony",
+    designation: "Oliver's Mum",
     company: "Home",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
