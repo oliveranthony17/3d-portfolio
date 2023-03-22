@@ -56,6 +56,7 @@ import housepoints from "./housepoints.png";
 import deboggle from "./deboggle.png";
 import migratingmango from "./migratingmango.png";
 import hammertime from "./hammertime.png";
+import portfolio from "./3dportfolio.png";
 
 export {
   logo,
@@ -112,4 +113,5 @@ export {
   deboggle,
   migratingmango,
   hammertime,
+  portfolio,
 };

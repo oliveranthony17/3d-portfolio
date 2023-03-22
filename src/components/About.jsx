@@ -44,7 +44,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-white text-[17px] max-w-6xl leading-[30px]"
       >
         I am originally from Manchester, England, and I am currently living in Luzern, Switzerland. I have recently completed the full-stack web development course at Le Wagon, Zürich, having previously worked as an Investment Consultant. I wanted to change my career and work in a role where I can better use my mathematical background, long-standing interest in technology and my passion for solving complex problems.
         <br></br>

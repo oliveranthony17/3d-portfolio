@@ -50,6 +50,7 @@ import {
   deboggle,
   migratingmango,
   hammertime,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -332,6 +333,27 @@ const othertechnologies = [
 ];
 
 const projects = [
+  {
+    name: "3D Portfolio",
+    description:
+      "Portfolio website built using React, ThreeJS and TailwindCSS. The website was built to showcase my skills and experience in web development, responsive design and 3D graphics, as well as to provide a platform for me to share my work with others.",
+    tags: [
+      {
+        name: "reactJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/oliveranthony17/3d-portfolio",
+  },
   {
     name: "luv2shop",
     description:
