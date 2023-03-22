@@ -32,6 +32,8 @@ import lewagon from "./lewagon.jpeg";
 import xps from "./xps.png";
 import deloitte from "./deloitte.png";
 import jlt from "./jlt.jpeg";
+import leeds from "./leeds.png";
+
 import bootstrap from "./bootstrap.png";
 import ruby from "./ruby.png";
 import python from "./python.png";
@@ -86,10 +88,13 @@ export {
   carrent,
   jobit,
   tripguide,
+
   lewagon,
   xps,
   deloitte,
   jlt,
+  leeds,
+
   bootstrap,
   ruby,
   python,
@@ -108,6 +113,7 @@ export {
   heroku,
   vercel,
   aws,
+
   luv2shop,
   housepoints,
   deboggle,

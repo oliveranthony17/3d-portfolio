@@ -27,6 +27,8 @@ import {
   xps,
   deloitte,
   jlt,
+  leeds,
+
   bootstrap,
   ruby,
   python,
@@ -45,6 +47,7 @@ import {
   heroku,
   vercel,
   aws,
+
   luv2shop,
   housepoints,
   deboggle,
@@ -63,8 +66,8 @@ export const navLinks = [
     title: "Experience",
   },
   {
-    id: "projects",
-    title: "Projects",
+    id: "tech",
+    title: "Technology",
   },
   {
     id: "contact",
@@ -146,6 +149,15 @@ const experiences = [
     icon: jlt,
     iconBg: "#FFFFFF",
     date: "August 2015 - September 2016",
+    points: [
+    ],
+  },
+  {
+    title: "Bsc with Honours Class 1 in Mathematics",
+    company_name: "University of Leeds, Leeds",
+    icon: leeds,
+    iconBg: "#FFFFFF",
+    date: "September 2012 - July 2015",
     points: [
     ],
   },
