@@ -99,7 +99,7 @@ const experiences = [
     date: "October 2022 - December 2022",
     points: [
       "Learnt the fundamentals of software development and programming: writing clean and efficient code with object-oriented programming, building MVC software from scratch, and mastering relational databases and SQL.",
-      "Mastered front-end development and web design: developed responsive websites with HTML and CSS, designed user interfaces with Bootstrap and Figma, and built interactive web applications using JavaScript and tools/environments like Webpack and Node.js.",
+      "Mastered front-end development and web design: developed responsive websites with HTML and CSS, designed user interfaces with Bootstrap and Figma, and built interactive web applications using JavaScript.",
       "Deployed fully-functional apps from scratch: designed and built complete web applications working as a team, deployed online using Heroku and a real domain, worked as a team to develop the application.",
       "Adopted best-in-class development workflow: understanding the importance of version control with Git and GitHub, and learned how to collaborate with other developers using GitHub, Slack, and Trello.",
       "Following the course, I also worked as a Teaching Assistant for Le Wagon."
@@ -377,7 +377,7 @@ const projects = [
   {
     name: "Deboggle",
     description:
-      'DeBoggle is an online game based on one of my favourite board games "Boggle" - a simple yet very addictive word game! The app was developed with the aim of learning React.',
+      'DeBoggle is an online game based on one of my favourite board games "Boggle" - a simple yet very addictive word game! The app was developed with the aim of learning React. There are plans to further develop a total score system, integrate Redux, and potentially build a backend to store the total scores.',
     tags: [
       {
         name: "reactJS",
@@ -442,6 +442,22 @@ const projects = [
 const testimonials = [
   {
     testimonial:
+      "Oliver was able to pick up complex topics with total ease, while still having a remarkable commitment to learning. He was constantly going the extra mile to understand topics completely and never hesitated to ask questions, displaying a deep interest and passion for software development. His remarkable ability to break down complicated topics into well-structured and organised thoughts was a great asset to both the class and myself as teacher.",
+    name: "Stephen Schüz",
+    designation: "Teacher",
+    company: "Le Wagon",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "Oliver's House Point app has made my life so much easier, it is now quick and easy to award house points and I can even do this on the go on my phone which is perfect for break duty and working in small groups without needing to grab my laptop. The app has made house points more visual for the children, they can now keep track of their score and they particularly love the sort from highest to lowest function, it has enthused the kids and they are now more motivated and want to know what they can do to get their house point score up. Oliver thought of some additional functions that have been really useful such as \"award all\" which saves me even more time. The login allows for additional security for GDPR and the kids love the \"declare winner\" function.",
+    name: "Hannah Valentine",
+    designation: "Teacher",
+    company: "Four Forest Bilingual International School",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
       "I found him to be professional, competent and thorough in carrying out this role and was of good character. I have no hesitation in recommending him for future employment.",
     name: "James Leeming",
     designation: "Partner",
@@ -456,14 +472,6 @@ const testimonials = [
   //   company: "Le Wagon",
   //   image: "https://randomuser.me/api/portraits/men/5.jpg",
   // },
-  {
-    testimonial:
-      "He was constantly going the extra mile to understand topics completely and never hesitated to ask questions, displaying a deep interest and passion for software development. His remarkable ability to break down complicated topics into well-structured and organised thoughts was a great asset to both the class and myself as teacher.",
-    name: "Stephen Schüz",
-    designation: "Teacher",
-    company: "Le Wagon",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
   {
     testimonial:
       "He's a very good boy!",

@@ -68,7 +68,7 @@ const Contact = () => {
 };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:flex-row flex-col-reverse flex overflow-hidden">
       {/* motion div as we want it to slide from the left */}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}

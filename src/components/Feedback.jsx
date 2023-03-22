@@ -8,7 +8,7 @@ import { testimonials } from '../constants';
 const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[300px] w-full"
+    className="bg-black-200 p-10 rounded-3xl xs:w-[600px] w-full"
   >
     <p className="text-white font-black text-[40px]">"</p>
     <div className="mt-1">
@@ -36,7 +36,7 @@ const Feedback = () => {
           <h2 className={`${styles.sectionHeadText}`}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex gap-7 flex-wrap`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard
             key={testimonial.name}
@@ -49,4 +49,4 @@ const Feedback = () => {
   )
 }
 
-export default SectionWrapper(Feedback, "")
+export default Feedback

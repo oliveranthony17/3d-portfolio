@@ -55,7 +55,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
 const Work = () => {
   return (
-    <>
+    <div className="w-[85%] mx-auto">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My projects</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
@@ -70,15 +70,15 @@ const Work = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-10 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
-export default SectionWrapper(Work, "projects");
+export default Work;
 
 // use empty <> wrapper because we have a div in the SectionWrapper
