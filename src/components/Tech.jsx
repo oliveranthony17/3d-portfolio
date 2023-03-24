@@ -15,20 +15,20 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Technologies.</h2>
       </motion.div>
 
-      <div className="flex flex-row flex-wrap justify-center gap-10 my-5">
+      {/* <div className="flex flex-row flex-wrap justify-center gap-10 my-5">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon}/>
           </div>
         ))}
-      </div>
+      </div> */}
 
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} pt-10`}>Other Tools.</h2>
-      </motion.div>
+      </motion.div> */}
 
       <div className="flex flex-row flex-wrap justify-center gap-10 my-5">
-        {othertechnologies.map((technology) => (
+        {technologies.map((technology) => (
           <div className="w-28 h-28 bg-white rounded-full mx-auto my-auto flex">
             <img src={technology.icon} alt={technology.name} className="w-20 h-20 mx-auto my-auto rounded"/>
           </div>
