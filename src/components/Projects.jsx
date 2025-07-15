@@ -16,7 +16,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           scale: 1,
           speed: 400
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full min-h-[550  px]"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -53,7 +53,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   )
 }
 
-const Work = () => {
+const Projects = () => {
   return (
     <div className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
       <motion.div variants={textVariant()}>
@@ -66,19 +66,21 @@ const Work = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white text-[17px] max-w-6xl leading-[30px]"
         >
-          I have worked on a number of projects using a variety of languages and frameworks. Some projects have just been for fun, whilst others are in use. Each project is briefly described below with links to the code repositories where you can see more information and a link to the live demos. The projects reflect my ability to design and structure applications which solve complex problems, my ability to work using different frameworks, and my creativity. <br/><br/>Please feel free to contact me if you have any questions.
+          Prior to working at Renuo, I have worked on a number of personal projects using a variety of languages and frameworks. Some projects have just been for fun, whilst others are in use. Each project is briefly described below with links to the code repositories where you can see more information and a link to the live demos. The projects reflect my ability to design and structure applications which solve complex problems, my ability to work using different frameworks, and my creativity. <br/><br/>Please feel free to contact me if you have any questions.
         </motion.p>
       </div>
 
       <div className="mt-10 flex flex-wrap gap-7 mx-auto justify-center">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <div className="flex-1 min-w-[360px] max-w-[360px]">
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          </div>
         ))}
       </div>
     </div>
   )
 }
 
-export default Work;
+export default SectionWrapper(Projects, "projects");;
 
 // use empty <> wrapper because we have a div in the SectionWrapper

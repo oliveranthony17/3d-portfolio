@@ -31,23 +31,18 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-  // template id = template_gaw94cp
-  // service id = service_kctv60y
-  // public key = qs1zwtLwQjMqo-rh4
-
     emailjs.send(
-      'service_kctv60y',
-      'template_gaw94cp',
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: "Oliver Anthony",
         from_email: form.email,
-        to_email: "oliver.h.anthony@gmail.com",
+        to_email: import.meta.env.VITE_CONTACT_EMAIL,
         message: form.message,
       },
-      'qs1zwtLwQjMqo-rh4'
-    )
-    .then(() => {
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    ).then(() => {
 
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");

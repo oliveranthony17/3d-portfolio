@@ -39,17 +39,24 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-white text-[17px] max-w-6xl leading-[30px]"
       >
-        I am originally from Manchester, England, and I am currently living in Luzern, Switzerland. I have recently completed the full-stack web development course at Le Wagon, Zürich, having previously worked as an Investment Consultant. I wanted to change my career and work in a role where I can better use my mathematical background, long-standing interest in technology and my passion for solving complex problems.
-        <br></br>
-        <br></br>
-        <strong>I have a Swiss work permit and I am looking for a full-time position as an intern or work experience as a software engineer.</strong>
+        <p className="mb-5">
+          I am originally from Manchester, England, and I have been living in Luzern, Switzerland for
+          the last 3 years.
+        </p>
+        <p className="mb-5">
+          Since 2023, I have been working as a Software Engineer
+          at <a href="https://www.renuo.ch" className="underline" target="_blank">Renuo AG</a>, delivering responsive
+          web applications in an agency setting. I have worked on a variety of projects, predominantly based in Ruby on
+          Rails, but also using React, Svelte, and a number of other frameworks.
+        </p>
+        <strong>I have a Swiss work permit and German language at a B1 level (but still learning!).</strong>
       </motion.p>
 
       <div className="mt-10 flex flex-wrap gap-10">

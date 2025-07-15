@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  renuo,
   lewagon,
   xps,
   deloitte,
@@ -70,6 +71,14 @@ export const navLinks = [
     title: "Technology",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "testimonials",
+    title: "Testimonials",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -77,30 +86,44 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     icon: backend,
   },
   {
-    title: "Problem Solver",
+    title: "Solutions Architect",
     icon: creator,
+  },
+  {
+    title: "Technical Consultant",
+    icon: mobile,
   },
 ];
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Renuo AG, Zürich",
+    icon: renuo,
+    iconBg: "#23DCAE",
+    date: "April 2023 - present",
+    points: [
+      "Led development of client-facing applications using React and Rails, including a property evaluation system and a multi-tenant onboarding platform for a major credit card provider.",
+      "Engineered sophisticated web solutions featuring dynamic forms, PDF generation, and third-party integrations while ensuring robust service level agreements.",
+      "Architected and implemented a Kubernetes-based hosting platform GUI, while taking ownership of technical documentation and knowledge sharing through migration guides and blog posts.",
+      "Actively contributed across 20+ projects through code reviews, architectural discussions, and development of internal tools including a real-time project monitoring dashboard.",
+      "Demonstrated versatility through exploration of emerging technologies, including machine learning prototypes and IoT experiments."
+    ],
+  },
+  {
     title: "Full Stack Web Development",
     company_name: "Le Wagon, Zürich",
     icon: lewagon,
     iconBg: "#E4161B",
-    date: "October 2022 - December 2022",
+    date: "October 2022 - January 2023",
     points: [
       "Learnt the fundamentals of software development and programming: writing clean and efficient code with object-oriented programming, building MVC software from scratch, and mastering relational databases and SQL.",
       "Mastered front-end development and web design: developed responsive websites with HTML and CSS, designed user interfaces with Bootstrap and Figma, and built interactive web applications using JavaScript.",
@@ -356,33 +379,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "framer-motion",
+        color: "orange-text-gradient",
+      },
+      {
         name: "Tailwind",
         color: "blue-text-gradient",
       },
     ],
     image: portfolio,
     source_code_link: "https://github.com/oliveranthony17/3d-portfolio",
-  },
-  {
-    name: "luv2shop",
-    description:
-      "Web-based e-commerce platform built using Angular, Spring Boot and MySQLWorkbench that allows users to purchase books, mugs and mouse mats. The app was developed with the aim of learning the fundamentals of Angular and Spring Boot.",
-    tags: [
-      {
-        name: "angularJS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "springboot",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: luv2shop,
-    source_code_link: "https://github.com/oliveranthony17/ecommerce-app-java-rest-api",
   },
   {
     name: "House Points",
@@ -425,6 +431,27 @@ const projects = [
     ],
     image: deboggle,
     source_code_link: "https://github.com/oliveranthony17/deboggle",
+  },
+  {
+    name: "luv2shop",
+    description:
+      "Web-based e-commerce platform built using Angular, Spring Boot and MySQLWorkbench that allows users to purchase books, mugs and mouse mats. The app was developed with the aim of learning the fundamentals of Angular and Spring Boot.",
+    tags: [
+      {
+        name: "angularJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "springboot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: luv2shop,
+    source_code_link: "https://github.com/oliveranthony17/ecommerce-app-java-rest-api",
   },
   {
     name: "Migrating Mango",

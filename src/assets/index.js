@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import renuo from "./renuo.png";
 import lewagon from "./lewagon.jpeg";
 import xps from "./xps.png";
 import deloitte from "./deloitte.png";
@@ -89,6 +90,7 @@ export {
   jobit,
   tripguide,
 
+  renuo,
   lewagon,
   xps,
   deloitte,

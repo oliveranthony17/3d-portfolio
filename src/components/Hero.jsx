@@ -14,9 +14,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Grüezi! I'm <span className="text-[#915eff]">Oliver</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a full-stack developer with an array of knowledge in programming languages, frontend and backend languages, responsive design principles, databases, and best code practices. My objective is simply to be the best developer that I can be and to wake up every day excited to code.
-          </p>
+          <div className={`${styles.heroSubText} mt-2 text-white-100`}>
+            <p>
+              I am a Software Engineer with an array of knowledge in programming languages, frontend, backend and full-stack frameworks,
+              test-driven development, responsive design principles, databases, and best code practices.
+            </p>
+            <p className="mt-10">
+              My goal is simply to be the best developer that I can be, and to wake up every day excited to build and create through code.
+            </p>
+          </div>
         </div>
       </div>
 

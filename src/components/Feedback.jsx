@@ -49,4 +49,4 @@ const Feedback = () => {
   )
 }
 
-export default Feedback
+export default SectionWrapper(Feedback, "testimonials");
